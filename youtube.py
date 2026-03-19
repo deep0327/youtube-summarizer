@@ -6,7 +6,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from urllib.parse import urlparse,parse_qs
 
 #second Step - Google k servers nk saath connection bnayenge
-client=genai.Client(api_key=os.environ.get("Gemini Key here"))
+client=genai.Client(api_key=os.environ.get("Gemini_Key_here"))
 
 #Third step- Web interface banyege streamlit k madad se(page k design)
 st.set_page_config(page_title="Youtube Summarizer", page_icon="🎥")
